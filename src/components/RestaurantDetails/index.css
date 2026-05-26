@@ -1,0 +1,124 @@
+.restaurant-details-container {
+  padding: 32px 60px;
+  background: #ffffff;
+}
+
+.food-search-bar {
+  margin-bottom: 24px;
+}
+
+.search-input {
+  width: 100%;
+  max-width: 480px;
+  padding: 14px 18px;
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  font-size: 16px;
+  color: #1e293b;
+  outline: none;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.08);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.search-input:focus {
+  border-color: #f7931e;
+  box-shadow: 0 8px 20px rgba(247, 147, 30, 0.18);
+}
+
+.no-results {
+  color: #475569;
+  font-size: 18px;
+  margin-bottom: 18px;
+}
+
+.restaurant-banner {
+  background: #333333;
+  color: white;
+  padding: 28px;
+  border-radius: 16px;
+  display: flex;
+  gap: 28px;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.restaurant-banner img {
+  width: 340px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 14px;
+}
+
+.restaurant-banner h1 {
+  font-size: 34px;
+  margin-bottom: 12px;
+}
+
+.restaurant-banner p {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.food-items-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+}
+
+.food-item-card {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 18px;
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+.food-item-card img {
+  width: 180px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 14px;
+}
+
+.food-item-card h3 {
+  font-size: 22px;
+  color: #1e293b;
+  margin-bottom: 10px;
+}
+
+.food-item-card p {
+  font-size: 18px;
+  color: #334155;
+  margin-bottom: 10px;
+}
+
+.add-button {
+  padding: 7px 22px;
+  border: 2px solid #f7931e;
+  background: white;
+  color: #f7931e;
+  border-radius: 8px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.quantity-container {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.quantity-container button {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.loader-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

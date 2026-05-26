@@ -1,0 +1,26 @@
+.empty-cart-container {
+  min-height: calc(100vh - 72px);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  background-color: #f8fafc;
+}
+
+.empty-cart-image {
+  width: 320px;
+  margin-bottom: 24px;
+}
+
+.empty-cart-container h1 {
+  color: #1e293b;
+  margin-bottom: 12px;
+}
+
+.empty-cart-container p {
+  color: #64748b;
+  font-size: 18px;
+}
